@@ -10,3 +10,5 @@ import p_fonctions as p
 
 mot = p.choix_mot()
 print(mot)
+p.affichage_mot(mot,5)
+p.detection_lettre(mot)
