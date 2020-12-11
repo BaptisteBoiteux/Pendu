@@ -7,6 +7,7 @@ quand : 27-11-2020
 #Importation des bibilothèques
 
 import random as r
+from tkinter import messagebox
 
 def choix_mot() :
     """
@@ -33,6 +34,7 @@ def detection_lettre(mot,liste):
         else:
             aff += ' _'
     return aff
+
 
 
     
