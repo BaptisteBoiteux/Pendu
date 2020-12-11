@@ -10,9 +10,9 @@ import p_fonctions as p
 
 
 start = 1
-restart = ""
 score = [0]
 while start == 1 :
+    restart = ""
     mot = p.choix_mot()
     chance = 8
     l_entree = [mot[0]]
@@ -42,7 +42,7 @@ while start == 1 :
         restart = input()
         if restart == 'n':
             start = 0
-        if restart == 'o':
+        elif restart == 'o':
             start = 1
         else :
             print("!le caractère rentré n'est pas valide!")
